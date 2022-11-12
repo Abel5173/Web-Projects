@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.co.in">
+        <div style="text-align: center;">
+            <h1>Employee Interstes Survey Form</h1>
+            <div>
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" size="35" maxlength="35" value="">
+            </div>
+            <br>
+            <div>
+                <label for="department">Enter Your Department:</label>
+                <input type="text" id="department" size="35" maxlength="35" value="">
+            </div>
+            <br>
+            <div>
+                Tell us a little about yourself:
+                <textarea name="comments" id="comments" cols="30" rows="5"></textarea><br><br>
+            </div>
+            Do you excercise at home?: 
+            <input type="radio" name="exe" id="no" value="1">
+            <label for="no">Yes</label> 
+            <input type="radio" name="exe" id="yes" value="1">
+            <label for="yes">No</label> <br><br>
+            How do you like to read about your favorite topics?:
+            <br><br>
+            <input type="checkbox" name="books">Books
+            <input type="checkbox" name="Online">Online Resources
+            <input type="checkbox" name="apps">Phone Apps
+            <input type="checkbox" name="magazines">Magazines 
+            <br><br>
+            What genre of movies do you like?:
+            <select name="movies" >
+                <option value=1 selected="true">comedy</option>
+                <option value=2>romance</option>
+                <option value=3>action</option>
+                <option value=4>thriller</option>
+                <option value=5>horror</option>
+                <option value=6>biopic</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit form">
+        </div>
+    </form>
+</body>
+</html>
