@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: url(./image/anton-malanin-M_KAN6Rd2dk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+}
