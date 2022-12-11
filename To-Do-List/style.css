@@ -173,6 +173,10 @@ h1{
 }
 #newtask button:hover{
     background-color: #2cb7ea;
+    box-shadow: 0 15px 10px rgb(0, 0, 0);
+    width: 21.5%;
+    height: 50px;
+    transition: width .25s, height 0.25s;
 }
 #tasks{
     background-color: white;
