@@ -118,13 +118,14 @@ body{
 h1{
     color: rgb(5, 52, 90);
     text-align: center;
-    margin-top: 80px;
+    margin: 8px;
+    margin-bottom: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 54px;
     font-weight: 1200;
 }
 .container{
-    background-color: rgba(0, 0, 0, .2);
+    /* background-color: rgba(0, 0, 0, .2); */
     border-radius: 5px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .4);
     width: 40%;
@@ -135,9 +136,9 @@ h1{
     padding: 30px 40px;
 }
 #newtask{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.652);
     padding: 30px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
 }
 #newtask input{
@@ -181,10 +182,10 @@ h1{
     transition: width .2s, height 0.2s, font-size .2;
 }
 #tasks{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.652);
     padding: 30px 20px;
     margin-top: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
     width: 100%;
     position: relative;
@@ -222,4 +223,7 @@ h1{
     height: 45px;
     font-size: 18px;
     transition: width .2s, height 0.2s, font-size .2;
+}
+.completed{
+    text-decoration: line-through;
 }
