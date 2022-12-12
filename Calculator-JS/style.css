@@ -10,6 +10,122 @@ body{
     margin: 0;
     background: linear-gradient(to right, #d38eab, #947b61);
 }
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 50px;
+    color: rgba(2, 3, 14, 0.8);
+    font-weight: 500;
+    grid-column: 1 / -1;
+}
+.circle1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 350px;
+    z-index: -1;
+    top: 165px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
+.circle2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    right: 350px;
+    z-index: -1;
+    top: 365px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 350px;
+    z-index: -1;
+    top: 565px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .2;
+    border-radius: 50%;
+}
+.circle4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 650px;
+    z-index: -1;
+    top: 565px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .2;
+    border-radius: 50%;
+}
+.circle5{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 650px;
+    z-index: -1;
+    top: 15px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
+.circle6{
+    width: 290px;
+    height: 290px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 850px;
+    z-index: -1;
+    top: 25px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .2;
+    border-radius: 50%;
+}
+.circle7{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 5px;
+    z-index: -1;
+    top: 5px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
+.circle8{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    left: 5px;
+    z-index: -1;
+    top: 425px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
+.circle9{
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.919);
+    right: 5px;
+    z-index: -1;
+    top: 525px;
+    background-image: linear-gradient(to bottom, #eefffe, #222010);
+    opacity: .3;
+    border-radius: 50%;
+}
 .calculator-grid{
     display: grid;
     justify-content: center;
