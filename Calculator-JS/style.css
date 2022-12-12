@@ -13,10 +13,9 @@ body{
 h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    height: 50px;
+    text-shadow: 0 25px 40px #000000;
     color: rgba(2, 3, 14, 0.8);
     font-weight: 500;
-    grid-column: 1 / -1;
 }
 .circle1{
     width: 150px;
