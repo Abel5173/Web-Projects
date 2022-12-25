@@ -24,6 +24,7 @@
     text-decoration: none;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 li:hover{
     background-color: rgba(41, 19, 236, 0.576);
@@ -39,6 +40,7 @@ li:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     color: rgba(237, 238, 240, 0.981);
+    cursor: pointer;
 }
 .li2{
     margin: 15px;
