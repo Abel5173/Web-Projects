@@ -29,6 +29,18 @@ section{
     margin: 10px;
     color: #fcfcfc;
 }
+input[type='number']{
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+}
+button{
+    background-color: #2493df;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
 li{
     list-style-type: square;
     list-style-position: inside;
