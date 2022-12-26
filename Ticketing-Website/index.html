@@ -1,7 +1,13 @@
-<html>
-
-    <body>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Ticketing Website</title>
+</head>
+<body>
         <section>
         
             <h1>The Eiffel Tower</h1>
@@ -43,14 +49,22 @@
 
         <section id="buy">
             <form>
-                <label for="Adults">Adults:</label>
-                <input type="number" id="Adults"><br><br>
-                <label for="Children">Children:</label>
-                <input type="number"id="Children"><br><br>
-                <button>Buy</button>
+                <div class="form-section">
+                    <label for="Adults">Adults:</label><br>
+                    <input type="number" id="Adults">
+                </div>
+                
+                <div class="form-section">
+                    <label for="Children">Children:</label><br>
+                    <input type="number"id="Children">
+                </div>
+
+                <div class="form-section">
+                    <button>Buy</button>
+                </div>
             </form>
         </section>
-        <footer>&copy; Copyright</footer>
-    </body>
 
+        <footer>&copy; Copyright</footer>
+</body>
 </html>
